@@ -22,6 +22,12 @@ function frameIt () {
 }
 
 function pressIt () {
+  $(document).on('keydown', function(key) {
+    if(key.which == )
+  })
+}
+
+function pressIt () {
   $("form").on("submit", function() {
     alert("Your form is going to be submitted now.")
     return;
