@@ -21,3 +21,8 @@ function frameIt () {
   })
 }
 
+function pressIt () {
+  $("form").on("submit", function() {
+    alert("")
+  }
+}
