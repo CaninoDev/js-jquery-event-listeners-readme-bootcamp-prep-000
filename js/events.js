@@ -7,12 +7,14 @@ $('h1').on("eventname", function(){
 });
 
 function getIt () {
-  $('p').on("click", funtion (){
+  $('p').on("click", function (){
     alert("Hey!")
   })
 }
 
 functiom frameIt (){
-  
+  $('img').on('load', function(){
+    $('img')
+  }
 }
 });
